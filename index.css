@@ -1,0 +1,41 @@
+  body, html {
+    height: 1000px;
+    margin: -25px;
+  }
+  
+  .bg {
+    background-image: url("What-Is-Web-Development.jpg");
+    height: 100% ; 
+        background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+  }
+  .container{
+    height: 500px ;
+    width: 400px;
+    flex-direction: row;
+    right: 50px;
+    position: absolute;
+  }
+  .item{
+    height: 90px;
+    width: 300px;
+    border: white 3px solid;
+    margin: 30px;
+    color: white;
+    padding: 2px 5px;
+  }
+  #header{
+    align-content: center;
+    color: yellow;
+    text-align: center;
+    font-size: 70px;
+    padding-top: 30px;
+  }
+  .anotherpic{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+ 
+  }
